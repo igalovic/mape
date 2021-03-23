@@ -1,0 +1,3 @@
+insert into Application.Mapa(NazivGrada,Lokacija) values ('Zagreb','POINT(45.815399 15.966568)')
+
+select a.Id, a.NazivGrada, a.Lokacija.ToString() as lokacija  from Application.Mapa as a 
